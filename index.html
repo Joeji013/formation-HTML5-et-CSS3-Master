@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratiquer le HTML5 & le CSS3 | Accueil</title>
+
+    <link rel="icon" href="assets/imgs/cc.ico">
+
+    <!-- Liens de notre fichier CSS-->
+    <link rel="stylesheet" href="assets/stylesheets/screen.css">
+    
+    <!-- Font awesome link (liens pour les icones externes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-container">
+                <!-- Logo -->
+                <a href="#" class="logo"><img src="assets/imgs/cc.png" alt="Le logo" class="img"></a> 
+                <!-- end Logo -->
+
+                <nav class="navigation"> <!-- Navigation begin --> 
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="#" class="nav-link active">Accueil <i class="fas fa-home"></i></a></li>
+                        <li class="nav-item submenu"> <!-- Submenu Link -->
+                            <a href="#" class="nav-link">Blog <i class="fas fa-comments"></i></a>
+                            <ul class="dropdown-menu"> <!-- Dropdown menu-->
+                                <li class="nav-item"><a href="#" class="nav-link active">Blog  <i class="fas fa-comment"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Single Blog  <i class="fas fa-newspaper"></i></a></li>
+                            </ul> <!-- End Dropdown menu -->
+                        </li> <!-- End Submenu Link -->
+                        <li class="nav-item"><a href="#" class="nav-link">Contact <i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </nav> <!-- end navigation -->
+            </div>
+        </div>
+    </header>  <!-- end header section-->
+
+    <!-- banner section -->
+    <section class="banner" id="banner">
+        <div class="container">
+            <div class="banner-wrapper">
+                <h1 class="b-tittle">Pratiquez et devenez meilleur</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, consequuntur, reprehenderit fugit veniam necessitatibus iusto, dolore nostrum eius est eos tempora accusantium assumenda recusandae. Cupiditate unde explicabo quae ut autem!</p>
+                <a href="#" class="btn btn-big btn-outline">Découvrir le monde</a>
+            </div>
+        </div>
+    </section> <!-- end banner section -->
+
+    <!-- Card section -->
+    <div class="card py-70" id="card">
+        <div class="container">
+            <div class="card-wrapper">
+                <article>
+                    <header>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur quisquam velit voluptatem. Aperiam eius omnis maiores est rerum id eveniet commodi eligendi. Ex, tenetur. Ad animi dolore dicta. Nisi!</p>
+                    <footer><a href="#" class="btn btn-mini btn-outline">Voir plus<i class="fas fa-angle-double-right"></i></a></footer>
+                </article>
+                <article>
+                    <header>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur quisquam velit voluptatem. Aperiam eius omnis maiores est rerum id eveniet commodi eligendi. Ex, tenetur. Ad animi dolore dicta. Nisi!</p>
+                    <footer><a href="#" class="btn btn-mini btn-outline">Voir plus<i class="fas fa-angle-double-right"></i></a></footer>
+                </article>
+                <article>
+                    <header>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur quisquam velit voluptatem. Aperiam eius omnis maiores est rerum id eveniet commodi eligendi. Ex, tenetur. Ad animi dolore dicta. Nisi!</p>
+                    <footer><a href="#" class="btn btn-mini btn-outline">Voir plus<i class="fas fa-angle-double-right"></i></a></footer>
+                </article>
+            </div>
+        </div>
+    </div> <!-- End Card section -->
+    
+    <!-- Mentors section -->
+    <section class="mentors py-70 bg-bw" id="mentors">
+        <div class="container">
+            <div class="mentors-wrapper">
+                <header class="section-header"> <!-- mentors header (title + description) -->
+                    <h1 class="main-title">Personnels à votre disposition</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores voluptate numquam velit. Veniam officiis eveniet molestias aliquam sit ea obcaecati vero accusantium sequi, cupiditate dolorum eos non quo rerum consequatur!</p>
+                </header> <!-- end mentors header -->
+
+                <div class="mentors-container row"> <!-- mentors container-->
+                    <div class="mentor-box px-15">
+                        <div class="box">
+                            <div class="mentor-img"><img src="assets/imgs/mentors/m4.jpg" alt="Mentor" class="img img-rounded"></div>
+                            <h4 class="l4-title">Yoda</h4>
+                            <p>Developpeur frontend</p>
+                        </div>
+                    </div>
+                    <div class="mentor-box px-15">
+                        <div class="box">
+                            <div class="mentor-img"><img src="assets/imgs/mentors/m2.jpg" alt="Mentor" class="img img-rounded"></div>
+                            <h4 class="l4-title">Yoda</h4>
+                            <p>Developpeur frontend</p>
+                        </div>
+                    </div>
+                    <div class="mentor-box px-15">
+                        <div class="box">
+                            <div class="mentor-img"><img src="assets/imgs/mentors/m5.jpg" alt="Mentor" class="img img-rounded"></div>
+                            <h4 class="l4-title">Yoda</h4>
+                            <p>Developpeur frontend</p>
+                        </div>
+                    </div>
+                    <div class="mentor-box px-15">
+                        <div class="box">
+                            <div class="mentor-img"><img src="assets/imgs/mentors/m1.jpg" alt="Mentor" class="img img-rounded"></div>
+                            <h4 class="l4-title">Yoda</h4>
+                            <p>Developpeur frontend</p>
+                        </div>
+                    </div>
+                </div> <!-- end mentors container -->
+            </div>
+        </div>
+    </section> <!-- end mentors section -->
+
+    <!--  Footer section -->
+    <footer class="footer py-70 bg-bw" id="footer">
+        <div class="container">
+            <div class="footer-blocks row">
+                <div class="footer-block f-links px-15"> <!-- footer links-->
+                    <ul>
+                        <li><a href="#">A propos de nous</a></li>
+                        <li><a href="#">Nous écrire</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                    </ul>
+                </div> <!-- end footer links-->
+                <div class="footer-block s-links px-15"> <!-- social links -->
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div> <!-- end social links-->
+
+                <div class="copyright" id="copyright"> <!-- copyright -->
+                    &copy; | Coding City <script>document.write(new Date().getFullYear());</script> all right reserved
+                </div> <!-- end copyright -->
+            </div>
+        </div>
+    </footer> <!-- End footer -->
+
+
+</body>
+</html>
