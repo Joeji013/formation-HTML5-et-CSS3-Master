@@ -15,6 +15,12 @@
     text-decoration: none;
     transition: all 0.3s ease ;
 
+    &:hover, &:focus {
+       outline: none;
+       background-color: darken($main-color,7%);
+       box-shadow: 2px 4px 8px rgba($black, 0.5); 
+    }
+
     &.btn-mini {
         font-size: 1rem;
         padding: 0.25rem 0.5rem;
@@ -24,7 +30,7 @@
         padding: 0.75rem 1.5rem;
     }
 
-    &.btn-outline:hover {
+    &.btn-outline:hover, &.btn-outline:focus {
         background-color: transparent;
         border-color: $main-color;
         color: $main-color;

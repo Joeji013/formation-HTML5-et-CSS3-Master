@@ -32,5 +32,26 @@
 
             
         }
+
+        @media (max-width: $md) {
+            flex-flow: column;
+
+            article {
+                margin-bottom: 1rem;
+                padding-bottom: 2rem;
+                border-right-color: transparent;
+                border-bottom-color: transparentize($sec-color, 0.85);
+
+                &:last-child {
+                    border-bottom-color: transparent;
+                }
+
+                h4 {
+                    min-width: 100%;
+                }
+
+
+            }
+        }
     }
 }
