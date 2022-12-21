@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratiquer le HTML5 & le CSS3 | Accueil</title>
+
+    <link rel="icon" href="assets/imgs/cc.ico">
+
+    <!-- Liens de notre fichier CSS-->
+    <link rel="stylesheet" href="assets/stylesheets/screen.css">
+    
+    <!-- Font awesome link (liens pour les icones externes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- header section -->
+    <header class="header light-header" id="header">
+        <div class="container">
+            <div class="header-container">
+                <!-- Logo -->
+                <a href="#" class="logo"><img src="assets/imgs/cc.png" alt="Le logo" class="img"></a> 
+                <!-- end Logo -->
+
+                <nav class="navigation"> <!-- Navigation begin --> 
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Accueil <i class="fas fa-home"></i></a></li>
+                        <li class="nav-item submenu"> <!-- Submenu Link -->
+                            <a href="#" class="nav-link">Blog <i class="fas fa-comments"></i></a>
+                            <ul class="dropdown-menu"> <!-- Dropdown menu-->
+                                <li class="nav-item"><a href="Blog.html" class="nav-link active">Blog  <i class="fas fa-comment"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Single Blog  <i class="fas fa-newspaper"></i></a></li>
+                            </ul> <!-- End Dropdown menu -->
+                        </li> <!-- End Submenu Link -->
+                        <li class="nav-item"><a href="#" class="nav-link">Contact <i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </nav> <!-- end navigation -->
+                <a href="#" class="hamburger" id="hamburger"><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+    </header>  <!-- end header section-->
+
+    <!-- Blog intro -->
+    <section class="blog-intro pt-120" id="blog-intro">
+        <div class="container">
+            <div class="intro">
+                <h1 class="main-title">Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quos officia deserunt eum molestias optio fuga amet iure aut, blanditiis commodi nesciunt porro cumque voluptate id autem voluptatum repellendus ab!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, magnam. Laboriosam facere autem culpa voluptatibus deleniti dicta doloremque nesciunt corporis assumenda molestias officiis quo aliquam impedit quibusdam natus, saepe aut?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, quas facere fugit deleniti dolorem saepe voluptatum ullam, eaque blanditiis maiores aspernatur iusto cupiditate recusandae ut quasi! Officiis nihil quam incidunt?</p>
+            </div>
+        </div>
+    </section> <!-- end Blog intro -->
+
+    <!-- blog category area -->
+    <section class="blog-category py-70" id="blog-category">
+        <div class="container">
+            <div class="category-wrapper row">
+                <div class="category-post px-15"> <!-- category post 1 -->
+                    <img src="assets/imgs/blog/cat-post/cat-3.png" alt="Post" class="img"> <!-- image -->
+                    <div class="category-details">
+                        <div class="category-text">
+                            <a href="#"><h5>Lorem, ipsum.</h5></a>
+                            <div class="border-line"></div>
+                            <p>Lorem ipsum dolor sit amet .</p>
+                        </div>
+                    </div>
+                </div> <!-- end category post 1-->
+                <div class="category-post px-15"> <!-- category post 2-->
+                    <img src="assets/imgs/blog/cat-post/cat-1.jpeg" alt="Post" class="img"> <!-- image -->
+                    <div class="category-details">
+                        <div class="category-text">
+                            <a href="#"><h5>Lorem, ipsum.</h5></a>
+                            <div class="border-line"></div>
+                            <p>Lorem ipsum dolor sit amet .</p>
+                        </div>
+                    </div>
+                </div> <!-- end category post 2-->
+
+                <div class="category-post px-15"> <!-- category post 3-->
+                    <img src="assets/imgs/blog/cat-post/cat-2.jpg" alt="Post" class="img"> <!-- image -->
+                    <div class="category-details">
+                        <div class="category-text">
+                            <a href="#"><h5>Lorem, ipsum.</h5></a>
+                            <div class="border-line"></div>
+                            <p>Lorem ipsum dolor sit amet .</p>
+                        </div>
+                    </div>
+                </div> <!-- end category post 3-->
+
+            </div>
+        </div>
+    </section> <!-- end blog category area -->
+
+     <!--  Footer section -->
+     <footer class="footer py-70 bg-bw" id="footer">
+        <div class="container">
+            <div class="footer-blocks row">
+                <div class="footer-block f-links px-15"> <!-- footer links-->
+                    <ul>
+                        <li><a href="#">A propos de nous</a></li>
+                        <li><a href="#">Nous écrire</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                    </ul>
+                </div> <!-- end footer links-->
+                <div class="footer-block s-links px-15"> <!-- social links -->
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div> <!-- end social links-->
+
+                <div class="copyright" id="copyright"> <!-- copyright -->
+                    &copy; | Coding City <script>document.write(new Date().getFullYear());</script> all right reserved
+                </div> <!-- end copyright -->
+            </div>
+        </div>
+    </footer> <!-- End footer -->
+
+    <!-- Javascript loading -->
+    <script type="text/javascript" scr="assets/js/script.js"></script>
+</body>
+</html>

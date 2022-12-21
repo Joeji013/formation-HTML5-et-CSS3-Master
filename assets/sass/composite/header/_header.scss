@@ -44,3 +44,7 @@ header.header {
     @import "composite/header/navigation";
    
     }
+
+    .header.light-header {
+        color: $main-color;
+    }
