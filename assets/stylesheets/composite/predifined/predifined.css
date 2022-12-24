@@ -3,6 +3,18 @@ Error: Undefined variable: "$md".
         on line 35 of C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/_title.scss
         from line 5 of C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/predifined.scss
 
+30: 
+31: .bg-bw {
+32:     background-color: $break-white;
+33: }
+34: 
+35: .t-center {
+36:     text-align: center !important;
+37: }
+38: 
+39: .fw-300 {
+40:     font-weight: 300 !important;
+
 Backtrace:
 C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/_title.scss:35
 C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/predifined.scss:5
@@ -74,4 +86,4 @@ C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$md\".\A         on line 35 of C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/_title.scss\A         from line 5 of C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/predifined.scss"; }
+  content: "Error: Undefined variable: \"$md\".\A         on line 35 of C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/_title.scss\A         from line 5 of C:/Users/lenovo/Desktop/formation_html_css/assets/sass/composite/predifined/predifined.scss\A \A 30: \A 31: .bg-bw {\A 32:     background-color: $break-white;\A 33: }\A 34: \A 35: .t-center {\A 36:     text-align: center !important;\A 37: }\A 38: \A 39: .fw-300 {\A 40:     font-weight: 300 !important;"; }

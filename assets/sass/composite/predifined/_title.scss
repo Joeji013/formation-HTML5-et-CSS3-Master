@@ -60,6 +60,22 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: 600;
    }
 
+   .post-title {
+      font-family: $ubuntu;
+      font-weight: 400;
+      font-size: 1.6rem;
+      color: $sec-color;
+   }
+
+   .widget-title {
+      padding: 8px 0;
+      margin-bottom: 30px;
+      background-color: $main-color;
+      color: $white;
+      font-size: 18px;
+      line-height: 2;
+   }
+
    .section-header {
       p {
           color: $sec-color;

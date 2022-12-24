@@ -8,9 +8,14 @@
 
  @import "reset";
 
+ @import "marging";
+
  @import "padding";
 
  @import "img";
+
+ @import "form";
+
 
 
 .fas, .far, .fab, .fa {
@@ -27,3 +32,10 @@
     background-color: $break-white;
 }
 
+.t-center {
+    text-align: center !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
